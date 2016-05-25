@@ -1,0 +1,199 @@
+body {
+	background: #000;
+}
+
+.titleWrapper {
+	width: 100%;
+	height: 200px;
+	border: 1px solid #fff;
+}
+
+.titleWrapper #imageModel{
+	width: 632px;
+	height: 80px;
+	margin: 60px auto 0 auto;
+	display: block;
+}
+
+.innerContainer {
+	width: 632px;
+	height: 80px;
+	margin: 60px auto 0 auto;
+	/*border: 1px solid red;*/
+}
+
+.PL-Ribbon {
+	width: 85px;
+	height: 80px;
+	margin-right: 36px;
+}
+
+.PL-Letter {
+	margin-right: 22px;
+	-webkit-animation-duration: 1.2s ! important;
+	animation-duration: 1.2s ! important;
+}
+
+.PL-P {
+	-webkit-animation-delay: .1s; /* Chrome, Safari, Opera */
+    animation-delay: .1s;
+}
+
+.PL-R {
+	-webkit-animation-delay: .2s; /* Chrome, Safari, Opera */
+    animation-delay: .2s;
+}
+
+.PL-I {
+	-webkit-animation-delay: .3s; /* Chrome, Safari, Opera */
+    animation-delay: .3s;
+}
+
+.PL-Z {
+	margin-right: 21px;
+	-webkit-animation-delay: .4s; /* Chrome, Safari, Opera */
+    animation-delay: .4s;
+}
+
+.PL-E {
+	margin-right: 26px;
+	-webkit-animation-delay: .5s; /* Chrome, Safari, Opera */
+    animation-delay: .5s;
+}
+
+.PL-L {
+	margin-right: 20px;
+	-webkit-animation-delay: .6s; /* Chrome, Safari, Opera */
+    animation-delay: .6s;
+}
+
+.PL-O {
+	-webkit-animation-delay: .7s; /* Chrome, Safari, Opera */
+    animation-delay: .7s;
+}
+
+.PL-G {
+	-webkit-animation-delay: .8s; /* Chrome, Safari, Opera */
+    animation-delay: .8s;
+}
+
+#I-2 {
+	-webkit-animation-delay: .9s; /* Chrome, Safari, Opera */
+    animation-delay: .9s;
+}
+
+.PL-C {
+	margin-right: 0;
+	-webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+    animation-delay: 1s;
+}
+
+
+/****
+Greensock styles
+**/
+
+#firstLetter, #secondLetter, #thirdLetter,
+#fourthLetter, #fifthLetter, #sixthLetter,
+#seventhLetter, #eigthLetter, #ninethLetter,
+#tenthLetter {
+	position: relative;
+}
+
+
+
+/****
+
+Slider Project
+
+****/
+
+.contentSlide {
+	/*height: 320px;
+	width: 320px;*/
+	position: absolute;
+	overflow: hidden;
+}
+
+.bottomWrapper {
+	width: 100%;
+}
+
+.topWrapper {
+	width: 100%;
+}
+
+.jasonSlider {
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	/*border: 1px solid red;*/	
+}
+
+.js-caption {
+	position: absolute;
+    color: #fff;
+    bottom: 0;
+	background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 10px;
+	margin: 0;
+}
+
+.js-info {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: url("../images/info.png");
+	width: 38px;
+	height: 38px;
+	margin: 0;
+	z-index:10;
+	cursor: pointer;
+	
+}
+
+#slideSelection {
+	width: 100%;
+	height: 17px;
+	position: absolute;
+	bottom: 0;
+	z-index: 9;
+}
+
+.slideSelectBTN {
+	height: 17px;
+	width: 17px;
+	margin-right: 10px;
+	cursor: pointer;
+	background: url("../images/select-button-OFF.png") center no-repeat;
+	display: inline-block;
+}
+
+.navModal {
+	position: absolute;
+	z-index: 4;
+	opacity: 0;
+	width: 32px;
+	cursor: pointer;
+}
+
+#modalLeft {
+	background: url("../images/leftarrow.png") center no-repeat;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+
+#modalRight {
+	background: url("../images/rightarrow.png") center no-repeat;
+	background-color:rgba(0, 0, 0, 0.5);
+	right: 0;
+}
+
+.visibleSlide {
+	z-index: 2;
+}
+
+.hideSlide {
+	opacity: 0;
+}
